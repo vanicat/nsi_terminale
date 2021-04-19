@@ -4,22 +4,21 @@ Pour créer une base de données et effectuer des requêtes sur cette dernière,
 
 Après avoir lancé le logiciel "DB Browser for SQLite", vous devriez obtenir ceci :
 
-
-![](/home/roche/Dropbox/term_manuel/md/img/nsi_term_bd_sql_1.png "Logo Titre Texte 1")
+![](img/nsi_term_bd_sql_1.png )
 
 Cliquez sur Nouvelle base de données. Après avoir choisi un nom pour votre base de données (par exemple "db_livres.db"), vous devriez avoir la fenêtre suivante :
 
-![](/home/roche/Dropbox/term_manuel/md/img/nsi_term_bd_sql_2.png)
+![](img/nsi_term_bd_sql_2.png)
 
 Cliquez alors sur Annuler
 
 Notre base de données a été créée :
 
-![](/home/roche/Dropbox/term_manuel/md/img/nsi_term_bd_sql_3.png)
+![](img/nsi_term_bd_sql_3.png)
 
 mais pour l'instant elle ne contient aucune table (aucune relation), pour créer une table, cliquez sur l'onglet "Exécuter le SQL". On obtient alors :
 
-![](/home/roche/Dropbox/term_manuel/md/img/nsi_term_bd_sql_4.png)
+![](img/nsi_term_bd_sql_4.png)
 
 Copiez-collez le texte ci-dessous dans la fenêtre "SQL 1"
 
@@ -30,7 +29,7 @@ CREATE TABLE LIVRES
 
 Cliquez ensuite sur le petit triangle situé au-dessus de la fenêtre SQL 1 (ou appuyez sur F5), vous devriez avoir ceci :
 
-![](/home/roche/Dropbox/term_manuel/md/img/nsi_term_bd_sql_5.png)
+![](img/nsi_term_bd_sql_5.png)
 
 Comme indiqué dans la fenêtre, "Requête exécutée avec succès" !
 
@@ -84,11 +83,11 @@ INSERT INTO LIVRES
 
 Un message devrez vous préciser que votre requête a été exécutée avec succès :
 
-![](/home/roche/Dropbox/term_manuel/md/img/nsi_term_bd_sql_6.png)
+![](img/nsi_term_bd_sql_6.png)
 
 La table LIVRES contient bien les données souhaitées (onglet "Parcourir les données") :
 
-![](/home/roche/Dropbox/term_manuel/md/img/nsi_term_bd_sql_7.png)
+![](img/nsi_term_bd_sql_7.png)
 
 ### activité 3.3
 
@@ -103,7 +102,7 @@ puis appuyez sur le triangle (ou la touche F5)
 
 Après un temps plus ou moins long, vous devriez voir s'afficher ceci :
 
-![](/home/roche/Dropbox/term_manuel/md/img/nsi_term_bd_sql_8.png)
+![](img/nsi_term_bd_sql_8.png)
 
 ### activité 3.4
 
