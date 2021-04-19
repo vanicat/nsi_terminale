@@ -1,6 +1,9 @@
 ### Projet de manuel numérique pour la terminale NSI
-Vous trouverez dans ce dépôt les fichiers sources au format .ipynb (Jupyter Notebook) d'un futur manuel "élève" pour les terminales NSI.
+
+Vous trouverez dans ce dépôt les fichiers sources au format markdown d'un futur manuel "élève" pour les terminales NSI. L'intégration au format HTML est disponible ici :  [https://pixees.fr/informatiquelycee/term/](https://pixees.fr/informatiquelycee/term/)
+
 Vous trouverez 3 types de ressources :
+
 - les cours
 - les activités (étude de doc, exercices d'application, TP...)
 - les exercices
