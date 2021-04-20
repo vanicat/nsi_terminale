@@ -63,7 +63,7 @@ Il nous reste donc l'attribut "id". En faite, l'attribut "id" ("id" comme "ident
 
 À noter qu'en toute rigueur, une clef primaire peut être constituée de plusieurs attributs, par exemple le couple "auteur" + "titre" pourrait jouer le rôle de clé primaire (à moins qu'un auteur écrive 2 romans différents, mais portant tous les deux le même titre), mais nous n'étudierons pas cet aspect des choses ici.
 
-# 5) clef étrangère
+## 5) clef étrangère
 
 ### a) duplication des données
 Nous désirons maintenant un peu enrichir la relation LIVRES en ajoutant des informations supplémentaires sur les auteurs, nous obtenons alors :
@@ -156,3 +156,6 @@ LIVRES(<u>id</u>  : INT, titre : TEXT, #id_auteur : INT, ann_publi : INT, note :
 
 Les attributs soulignés sont des clefs primaires, le # signifie que l'on a une clef étrangère.
 
+![](img/cc.png)
+
+Auteur : David Roche

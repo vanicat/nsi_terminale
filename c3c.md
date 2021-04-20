@@ -7,7 +7,7 @@ Dans ce cours nous allons travailler avec SQLite. SQLite est un système de gest
 
 Pendant ce cours nous allons travailler avec les 2 tables (relations) suivantes :
 
-Table: Table AUTEURS
+Table AUTEURS
 
 |id|nom|prenom|ann_naissance|langue_ecriture|
 |--- |--- |--- |--- |--- |
@@ -22,7 +22,7 @@ Table: Table AUTEURS
 |9|Van Vogt|Alfred Elton|1912|anglais|
 |10|Verne|Jules|1828|français|
 
-Table: Table LIVRES
+Table LIVRES
 
 |id|titre|id_auteur|ann_publi|note|
 |--- |--- |--- |--- |--- |
@@ -237,3 +237,7 @@ DELETE FROM LIVRES
 WHERE titre='Hypérion'
 ```
 Cette requête permet de supprimer le livre ayant pour titre Hypérion
+
+![](img/cc.png)
+
+Auteur : David Roche

@@ -51,3 +51,7 @@ Modifiez ensuite la relation FILMS afin d'établir un lien entre les relations F
 
 ### activité 2.5
 Donnez le schéma relationnel de la base de données que vous avez défini dans l'activité 2.4
+
+![](img/cc.png)
+
+Auteur : David Roche

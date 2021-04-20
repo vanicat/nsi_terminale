@@ -34,4 +34,6 @@ AUTEURS(<u>id</u> : INT, nom : TEXT, prenom : TEXT, ann_naissance : INT, langue_
   
 LIVRES(<u>id</u> : INT, titre : TEXT, #id_auteur : INT, ann_publi : INT, note : INT)
 
+![](img/cc.png)
 
+Auteur : David Roche

@@ -7,7 +7,7 @@ Un ski-club utilise une base de données constituée de 2 tables :
 
 Dans la table ADHERENTS  on trouve un attribut “ref_station” qui permet de connaître les stations de ski préférées des adhérents.
 
-Table ADHERENTS :
+Table ADHERENTS
 
 | num_licence | nom    | prenom  | annee_naissance | ref_station |
 | ----------- | ------ | ------- | --------------- | ----------- |
@@ -17,7 +17,7 @@ Table ADHERENTS :
 | 13447       | Beau   | Tristan | 1999            | 4           |
 | 1141        | Pabeau | John    | 1975            | 3           |
 
-table STATIONS :
+table STATIONS
 
 | ref | nom              | altitude_max |
 | --- | ---------------- | ------------ |
@@ -42,3 +42,6 @@ FROM STATIONS
 INNER JOIN ADHERENTS ON ADHERENTS.ref_station = STATIONS.ref
 WHERE annee_naissance > 1975
 ```
+![](img/cc.png)
+
+Auteur : David Roche

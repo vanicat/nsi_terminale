@@ -271,3 +271,7 @@ VALUES
 ### activité 3.16
 
 Écrivez une requête permettant de supprimer les livres publiés avant 1945. Testez cette requête.
+
+![](img/cc.png)
+
+Auteur : David Roche
