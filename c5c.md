@@ -11,7 +11,9 @@ Une liste est une structure de données permettant de regrouper des données. Un
 
 Une liste vide est très souvent représentée par nil.
 
-Exemples : (**les  exemples suivants s'enchainent**) 
+Exemples : 
+
+Soit une liste L (**les  exemples suivants s’enchaînent**) 
 
 L = vide() => permet d'obtenir une liste vide notée L
 
@@ -110,3 +112,7 @@ Il est relativement facile d'insérer un élément dans une liste chaînée :
 ![](img/nsi_term_structDo_liste_7.png) 
 
 Il est aussi possible d'implémenter les types abstraits en utilisant des structures plus complexes que les tableaux et les listes chaînées (nous  verrons des exemples en Python dans les activités).
+
+![](img/cc.png)
+
+Auteur : David Roche
