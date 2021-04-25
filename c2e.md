@@ -20,6 +20,3 @@ Relation PRODUITS
 4. Donnez un exemple de t-upplet de la relation PRODUITS
 5. Parmi tous les attributs de la relation PRODUITS, déterminez le(s) attribut(s) qui peut (peuvent) jouer le rôle de clé primaire ? (justifiez votre réponse)
 
-![](img/cc.png)
-
-Auteur : David Roche

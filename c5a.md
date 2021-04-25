@@ -73,6 +73,3 @@ Python propose une implémentation des files. Après avoir étudié la documenta
 ### activité 5.9
 Écrivez une fonction Python permettant de déterminer le nombre d'éléments présents dans une liste.
 
-![](img/cc.png)
-
-Auteur : David Roche

@@ -40,6 +40,3 @@ Voici les opérations que l'on peut réaliser sur une file :
 ### Ce qu’il faut savoir faire
 Implémenter les structures abstraites liste, pile et file en Python
 
-![](img/cc.png)
-
-Auteur : David Roche

@@ -20,6 +20,3 @@ durée de recherche ne dépend pas du nombre d'éléments présents dans le dict
 ### Ce qu’il faut savoir faire
 Savoir utiliser les dictionnaires en Python
 
-![](img/cc.png)
-
-Auteur : David Roche

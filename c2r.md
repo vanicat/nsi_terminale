@@ -11,7 +11,7 @@
 - Pour chaque attribut d'une relation, il est nécessaire de définir un domaine : Le domaine d'un attribut donné correspond à un ensemble fini ou infini de valeurs
   admissibles.
 
-- Une clef primaire est un attribut dont la valeur permet d'identifier de manière unique un t-uplet de la relation. Autrement dit, si un attribut est considéré comme clef primaire, on ne doit pas trouver dans toute la relation 2 fois la même valeur pour cet attribut.
+- Une clé primaire est un attribut dont la valeur permet d'identifier de manière unique un t-uplet de la relation. Autrement dit, si un attribut est considéré comme clé primaire, on ne doit pas trouver dans toute la relation 2 fois la même valeur pour cet attribut.
 
 - Une clé étrangère est un attribut d'une relation A devant apparaître comme clé
   primaire dans une relation B afin d’établir un lien entre A et B (une clé étrangère d'un tuple référence une clé primaire d'un autre tuple). La notion de clé étrangère permet de préserver l'intégrité d'une base de données lorsque l’on travail sur plusieurs relations en même temps
@@ -25,8 +25,8 @@
   - pour chaque relation, la liste des attributs avec leur domaine
     respectif
   
-  - pour chaque relation, la clef primaire (soulignée) et
-    éventuellement les clefs étrangères (précédées d’un #)
+  - pour chaque relation, la clé primaire (soulignée) et
+    éventuellement les clés étrangères (précédées d’un #)
   
 exemple :
   
@@ -34,6 +34,3 @@ AUTEURS(<u>id</u> : INT, nom : TEXT, prenom : TEXT, ann_naissance : INT, langue_
   
 LIVRES(<u>id</u> : INT, titre : TEXT, #id_auteur : INT, ann_publi : INT, note : INT)
 
-![](img/cc.png)
-
-Auteur : David Roche

@@ -23,6 +23,3 @@ Proposez une structure de données permettant de stocker ces informations (on at
 En vous aidant de ce qui a été vu en première, écrivez un programme Python permettant de lister l'ensemble des noms "stockés" à l'activité 6.2 (on attend une structure de type boucle)
 
 
-![](img/cc.png)
-
-Auteur : David Roche

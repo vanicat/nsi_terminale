@@ -121,7 +121,3 @@ Créer la fonction tri_crepes ayant pour paramètre une pile P. Cette fonction t
 
 Exemple : Si la pile P est ![](img/c5e_4.png), après l’appel de tri_crepes(P), la pile P devient ![](img/c5e_4.png)
  
-
-![](img/cc.png)
-
-Auteur : David Roche (sauf exercice 5.4 tiré du sujet 0 du bac)

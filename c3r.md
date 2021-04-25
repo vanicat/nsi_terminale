@@ -28,6 +28,3 @@
 
 - Vous devez être capable d’effectuer une jointure entre 2 tables (utilisation de “INNER JOIN”)
 
-![](img/cc.png)
-
-Auteur : David Roche

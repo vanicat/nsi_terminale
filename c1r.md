@@ -14,6 +14,3 @@ Par rapport à une base de données, le stockage de données dans un fichier de 
 est beaucoup plus simple à mettre en place, mais aussi beaucoup plus limité : pas de
 contrôle d’accès, pas de redondance des données, pas de gestion des accès concurrents.
 
-![](img/cc.png)
-
-Auteur : David Roche

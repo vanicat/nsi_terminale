@@ -55,6 +55,4 @@ def flocon(taille, etape):
 
 flocon(100, 3)
 ```
-![](img/cc.png)
 
-Auteur : David Roche

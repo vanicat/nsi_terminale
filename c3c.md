@@ -114,7 +114,7 @@ SELECT nom
 FROM AUTEURS
 WHERE langue_ecriture = 'français' ORDER BY ann_naissance DESC
 ```
-On obtiendra ici : "Boulle", "Verne", "Barjavel"
+On obtiendra ici : "Boulle", "Verne", "Barjavel
 
 À noter que si la clause ORDER BY porte sur une chaine de caractères, on obtient alors l'ordre alphabétique  :
 ```
@@ -123,7 +123,38 @@ FROM AUTEURS
 WHERE langue_ecriture = 'français' ORDER BY nom
 ```
 On obtiendra : "Barjavel", "Boulle", "Verne"
-### d) les jointures
+
+### d) la clause DISTINCT
+Il est possible d'éviter les doublons dans une réponse grâce à la clause DISTINCT. Imaginons la table suivante :
+
+Table MACHINES
+
+|numero|type|proprietaire|
+|--- |--- |--- |
+|1|X23|Marc|
+|2|Y43|Pierre|
+|3|Z24|Kevin|
+|4|Y44|Marc|
+
+La requête suivante :
+
+```
+SELECT proprietaire
+FROM MACHINES
+```
+donnerait le résultat suivant : Marc, Pierre, Kevin, Marc
+
+Nous avons donc un doublon : Marc apparait 2 fois
+
+Pour éviter ce doublon, nous pouvons écrire : 
+
+```
+SELECT DISTINCT proprietaire
+FROM MACHINES
+```
+qui nous donnera comme résultat : Marc, Pierre, Kevin
+
+### e) les jointures
 Nous avons 2 tables, grâce aux jointures nous allons pouvoir associer ces 2 tables dans une même requête.
 
 En général, les jointures consistent à associer des lignes de 2 tables. Elles permettent d'établir un lien entre 2 tables. Qui dit lien entre 2 tables dit souvent clé étrangère et clé primaire.
@@ -192,7 +223,7 @@ On obtiendra alors une jointure uniquement avec l'attribut titre de la table LIV
 |La Fin de l’éternité|Asimov|Isaac|
 |De la Terre à la Lune|Verne|Jules|
 
-### e) utilisation du WHERE dans les jointures
+### f) utilisation du WHERE dans les jointures
 
 Suite à une jointure il est possible de sélectionner certaines lignes grâce à la clause WHERE :
 ```
@@ -209,7 +240,7 @@ On obtient avec cette requête le résultat suivant :
 |La nuit des temps|Barjavel|René|
 |Blade Runner|K.Dick|Philip|
 
-### f) les jointures plus complexes
+### g) les jointures plus complexes
 
 Pour terminer avec les jointures, vous devez savoir que nous avons abordé la jointure la plus simple (INNER JOIN). Il existe des jointures plus complexes (CROSS JOIN, LEFT JOIN, RIGHT JOIN), ces autres jointures ne seront pas abordées dans ce cours.
 
@@ -229,14 +260,21 @@ UPDATE LIVRES
 SET note=7
 WHERE titre = 'Hypérion'
 ```
-Cette requête permet de modifier la note du livre ayant pour titre Hypérion
+Cette requête permet de modifier la note du(des) livre(s) ayant pour titre Hypérion
 ## 5) requêtes de suppression
 "DELETE" est utilisée pour effectuer la suppression d'une (ou de plusieurs) entrée(s). Ici aussi c'est le "WHERE" qui permettra de sélectionner les entrées à supprimer :
 ```
 DELETE FROM LIVRES
 WHERE titre='Hypérion'
 ```
-Cette requête permet de supprimer le livre ayant pour titre Hypérion
+Cette requête permet de supprimer le(les) livre(s) ayant pour titre Hypérion
+
+Attention à l'utilisation de cette requête DELETE notamment si on oublie le WHERE. Un :
+
+```
+DELETE FROM LIVRES
+```
+supprimerait toutes les entrées de la table LIVRES
 
 ![](img/cc.png)
 

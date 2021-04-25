@@ -16,7 +16,7 @@ Pour chaque attribut d'une relation, il est nécessaire de définir un domaine :
 
 Au moment de la création d'une relation, il est nécessaire de renseigner le domaine de chaque attribut. Le SGBD s'assure qu'un élément ajouté à une relation respecte bien le domaine de l'attribut correspondant : si par exemple vous essayez d'ajouter une note non entière (par exemple 8.5), le SGBD signalera cette erreur et n'autorisera pas l'écriture de cette nouvelle donnée.
 
-## 4) clef primaire
+## 4) clé primaire
 Autre contrainte très importante dans les bases de données relationnelles, une relation ne peut pas contenir 2 t-uplets identiques. Par exemple, la situation ci-dessous n'est pas autorisée (ici aussi c'est le SGBD qui veille au grain) :
 
 |id|titre|auteur|ann_publi|note|
@@ -26,9 +26,9 @@ Autre contrainte très importante dans les bases de données relationnelles, une
 |2|Dune|Herbert|1965|8|
 |3|Fondation|Asimov|1951|9|
 
-Afin d'être sûr de respecter cette contrainte des t-uplets identiques, on définit la notion de "clef primaire".
+Afin d'être sûr de respecter cette contrainte des t-uplets identiques, on définit la notion de "clé primaire".
 
-Une clef primaire est un attribut dont la valeur permet d'identifier de manière unique un t-uplet de la relation. Autrement dit, si un attribut est considéré comme clef primaire, on ne doit pas trouver dans toute la relation 2 fois la même valeur pour cet attribut.
+Une clé primaire est un attribut dont la valeur permet d'identifier de manière unique un t-uplet de la relation. Autrement dit, si un attribut est considéré comme clé primaire, on ne doit pas trouver dans toute la relation 2 fois la même valeur pour cet attribut.
 
 Si on se réfère à l'exemple de la relation ci-dessous :
 
@@ -51,19 +51,19 @@ Si on se réfère à l'exemple de la relation ci-dessous :
 |15|La Fin de l’éternité|Asimov|1955|8|
 |16|De la Terre à la Lune|Verne|1865|10|
 
-L'attribut "note" peut-il jouer le rôle de clef primaire ? Non, car il est possible de trouver 2 fois la même note.
+L'attribut "note" peut-il jouer le rôle de clé primaire ? Non, car il est possible de trouver 2 fois la même note.
 
-L'attribut "ann_publi" peut-il jouer le rôle de clef primaire ? Non, car il est possible de trouver 2 fois la même année.
+L'attribut "ann_publi" peut-il jouer le rôle de clé primaire ? Non, car il est possible de trouver 2 fois la même année.
 
-L'attribut "auteur" peut-il jouer le rôle de clef primaire ? Non, car il est possible de trouver 2 fois le même auteur.
+L'attribut "auteur" peut-il jouer le rôle de clé primaire ? Non, car il est possible de trouver 2 fois le même auteur.
 
-L'attribut "titre" peut-il jouer le rôle de clef primaire ? A priori oui, car l'attribut "titre" ne comporte pas 2 fois le même titre de roman. Mais, ce n'est pas forcément une bonne idée, car il est tout à fait possible d'avoir un même titre pour 2 romans différents. Par exemple, en 2013, l’Américaine Jill McCorkle et l’Anglaise Kate Atkison publiaient avec seulement six jours d’écart un livre intitulé "Life After Life" !
+L'attribut "titre" peut-il jouer le rôle de clé primaire ? A priori oui, car l'attribut "titre" ne comporte pas 2 fois le même titre de roman. Mais, ce n'est pas forcément une bonne idée, car il est tout à fait possible d'avoir un même titre pour 2 romans différents. Par exemple, en 2013, l’Américaine Jill McCorkle et l’Anglaise Kate Atkison publiaient avec seulement six jours d’écart un livre intitulé "Life After Life" !
 
-Il nous reste donc l'attribut "id". En fait, l'attribut "id" ("id" comme "identifiant") a été placé là pour jouer le rôle de clef primaire. En effet, à chaque fois qu'un roman est ajouté à la relation, son "id" correspond à l'incrémentation de l'id (id du nouveau=id de l'ancien+1) du roman précédemment ajouté. Il est donc impossible d'avoir deux romans avec le même id. Ajouter un attribut "id" afin qu'il puisse jouer le rôle de clef primaire est une pratique courante (mais non obligatoire) dans les bases de données relationnelles. Dans le cas précis qui nous intéresse, il aurait été possible de ne pas utiliser d'attribut "id", car chaque livre édité possède un numéro qui lui est propre : l'ISBN, cet ISBN aurait donc pu jouer le rôle de clef primaire.
+Il nous reste donc l'attribut "id". En fait, l'attribut "id" ("id" comme "identifiant") a été placé là pour jouer le rôle de clé primaire. En effet, à chaque fois qu'un roman est ajouté à la relation, son "id" correspond à l'incrémentation de l'id (id du nouveau=id de l'ancien+1) du roman précédemment ajouté. Il est donc impossible d'avoir deux romans avec le même id. Ajouter un attribut "id" afin qu'il puisse jouer le rôle de clé primaire est une pratique courante (mais non obligatoire) dans les bases de données relationnelles. Dans le cas précis qui nous intéresse, il aurait été possible de ne pas utiliser d'attribut "id", car chaque livre édité possède un numéro qui lui est propre : l'ISBN, cet ISBN aurait donc pu jouer le rôle de clé primaire.
 
-À noter qu'en toute rigueur, une clef primaire peut être constituée de plusieurs attributs, par exemple le couple "auteur" + "titre" pourrait jouer le rôle de clé primaire (à moins qu'un auteur écrive 2 romans différents, mais portant tous les deux le même titre), mais nous n'étudierons pas cet aspect des choses ici.
+À noter qu'en toute rigueur, une clé primaire peut être constituée de plusieurs attributs, par exemple le couple "auteur" + "titre" pourrait jouer le rôle de clé primaire (à moins qu'un auteur écrive 2 romans différents, mais portant tous les deux le même titre), mais nous n'étudierons pas cet aspect des choses ici.
 
-## 5) clef étrangère
+## 5) clé étrangère
 
 ### a) duplication des données
 Nous désirons maintenant un peu enrichir la relation LIVRES en ajoutant des informations supplémentaires sur les auteurs, nous obtenons alors :
@@ -91,7 +91,7 @@ Nous avons ajouté 3 attributs ("prenom_auteur", "date_nai_auteur" et "langue_ec
 
 Comme vous l'avez peut-être remarqué, il y a pas mal d'informations dupliquées, par exemple, on retrouve 3 fois "K.Dick Philip 1928 anglais", même chose pour "Asimov Isaac 1920 anglais"...Cette duplication est-elle indispensable ? Non ! Est-elle souhaitable ? Non plus ! En effet, dans une base de données, on évite autant que possible de dupliquer l'information (sauf à des fins de sauvegarde, mais ici c'est toute autre chose). Si nous dupliquons autant de données inutilement c'est que notre structure ne doit pas être la bonne ! Mais alors, comment faire pour avoir aussi des informations sur les auteurs des livres ?
 
-### b) notion de clef étrangère
+### b) notion de clé étrangère
 La solution est relativement simple : travailler avec 2 relations au lieu d'une seule et créer un "lien" entre ces 2 relations :
 
 Table: Relation AUTEURS
@@ -134,11 +134,11 @@ Nous avons créé une relation AUTEURS et nous avons modifié la relation LIVRES
 
 Comme vous l'avez sans doute remarqué, l'attribut "id_auteur" de la relation LIVRES permet de créer un lien avec la relation AUTEURS. "id_auteur" correspond à l'attribut "id" de la relation AUTEURS. L'introduction d'une relation AUTEURS et la mise en place de liens entre cette relation et la relation LIVRES permettent d'éviter la redondance d'informations.
 
-Pour établir un lien entre 2 relations RA et RB, on ajoute à RA un attribut x qui prendra les valeurs de la clef primaire de RB. Cet attribut x est appelé clef étrangère (l'attribut correspond à la clé primaire d'une autre table, d'où le nom).
+Pour établir un lien entre 2 relations RA et RB, on ajoute à RA un attribut x qui prendra les valeurs de la clé primaire de RB. Cet attribut x est appelé clé étrangère (l'attribut correspond à la clé primaire d'une autre table, d'où le nom).
 
-Dans l'exemple ci-dessus, l'attribut "id_auteur" de la relation LIVRES permet bien d'établir un lien entre la relation LIVRES et la relation AUTEURS, "id_auteur" correspond bien à la clef primaire de la relation AUTEURS, conclusion : "id_auteur" est une clef étrangère.
+Dans l'exemple ci-dessus, l'attribut "id_auteur" de la relation LIVRES permet bien d'établir un lien entre la relation LIVRES et la relation AUTEURS, "id_auteur" correspond bien à la clé primaire de la relation AUTEURS, conclusion : "id_auteur" est une clé étrangère.
 
-Pour préserver l'intégrité d'une base de données, il est important de bien vérifier que toutes les valeurs de la clef étrangère correspondent bien à des valeurs présentes dans la clef primaire (nous aurions un problème d'intégrité de la base de données si une valeur de l'attribut "id_auteur" de la relation LIVRES ne correspondait à aucune valeur de la clef primaire de la relation AUTEURS). Certains SGBD ne vérifient pas cette contrainte (ne renvoient aucune erreur en cas de problème), ce qui peut provoquer des comportements erratiques.
+Pour préserver l'intégrité d'une base de données, il est important de bien vérifier que toutes les valeurs de la clé étrangère correspondent bien à des valeurs présentes dans la clé primaire (nous aurions un problème d'intégrité de la base de données si une valeur de l'attribut "id_auteur" de la relation LIVRES ne correspondait à aucune valeur de la clé primaire de la relation AUTEURS). Certains SGBD ne vérifient pas cette contrainte (ne renvoient aucune erreur en cas de problème), ce qui peut provoquer des comportements erratiques.
 
 ## 6) schéma relationnel 
 
@@ -146,7 +146,7 @@ Dernière définition, on appelle schéma relationnel l'ensemble des relations p
 
 - Les noms des différentes relations
 - pour chaque relation, la liste des attributs avec leur domaine respectif
-- pour chaque relation, la clef primaire et éventuellement les clefs étrangères
+- pour chaque relation, la clé primaire et éventuellement les clés étrangères
 
 Voici un exemple pour les relations LIVRES et AUTEURS :
 
@@ -154,7 +154,8 @@ AUTEURS(<u>id</u> : INT, nom : TEXT, prenom : TEXT, ann_naissance : INT, langue_
 
 LIVRES(<u>id</u>  : INT, titre : TEXT, #id_auteur : INT, ann_publi : INT, note : INT)
 
-Les attributs soulignés sont des clefs primaires, le # signifie que l'on a une clef étrangère.
+Les attributs soulignés sont des clés primaires, le # signifie que l'on a une clé étrangère.
+
 
 ![](img/cc.png)
 

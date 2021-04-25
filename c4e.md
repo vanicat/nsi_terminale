@@ -13,6 +13,3 @@ a = fct(2)
 
 Que vaut la variable a après l’exécution de ce programme (justifiez votre réponse)
 
-![](img/cc.png)
-
-Auteur : David Roche

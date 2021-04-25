@@ -35,12 +35,12 @@ Voici un extrait d'une relation référençant des films :
 
 Listez les différents attributs de cette relation. Donnez le domaine de chaque attribut.
 
-Pour chaque attribut dire si cet attribut peut jouer le rôle de clef primaire, vous n'oublierez pas de justifier vos réponses.
+Pour chaque attribut dire si cet attribut peut jouer le rôle de clé primaire, vous n'oublierez pas de justifier vos réponses.
 
 ### activité 2.4
 
 En partant de la relation FILMS ci-dessous, créez une relation REALISATEURS (attributs de la relation REALISATEURS : id, nom, prenom et	ann_naissance, vous trouverez toutes les informations nécessaires sur le Web).
-Modifiez ensuite la relation FILMS afin d'établir un lien entre les relations FILMS et REALISATEURS. Vous préciserez l'attribut qui jouera le rôle de clef étrangère.
+Modifiez ensuite la relation FILMS afin d'établir un lien entre les relations FILMS et REALISATEURS. Vous préciserez l'attribut qui jouera le rôle de clé étrangère.
 
 |id|titre|realisateur|ann_sortie|note_sur_10|
 |--- |--- |--- |--- |--- |
@@ -52,6 +52,3 @@ Modifiez ensuite la relation FILMS afin d'établir un lien entre les relations F
 ### activité 2.5
 Donnez le schéma relationnel de la base de données que vous avez défini dans l'activité 2.4
 
-![](img/cc.png)
-
-Auteur : David Roche

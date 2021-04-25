@@ -380,6 +380,4 @@ Cette année, au lieu d'utiliser un fichier texte pour stocker les noms et les n
 
 Pour rappel, voici la vidéo qui vous montre votre objectif : [vidéo projet répertoire téléphonique version web](https://www.youtube.com/watch?v=xTETvikDMBw&t=1s)
 
-![](img/cc.png)
 
-Auteur : David Roche

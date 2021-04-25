@@ -42,6 +42,3 @@ FROM STATIONS
 INNER JOIN ADHERENTS ON ADHERENTS.ref_station = STATIONS.ref
 WHERE annee_naissance > 1975
 ```
-![](img/cc.png)
-
-Auteur : David Roche

@@ -9,6 +9,3 @@
 - Analyser le fonctionnement d’un programme récursif (programme récursif = programme qui comporte au moins une fonction récursive).
 - être capable d’écrire une fonction récursive simple
 
-![](img/cc.png)
-
-Auteur : David Roche
