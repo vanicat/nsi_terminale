@@ -26,7 +26,7 @@
     respectif
   
   - pour chaque relation, la clef primaire (soulignée) et
-    éventuellement la clef étrangère(précédé d’un #)
+    éventuellement les clefs étrangères (précédées d’un #)
   
 exemple :
   
