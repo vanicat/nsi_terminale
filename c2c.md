@@ -59,7 +59,7 @@ L'attribut "auteur" peut-il jouer le rôle de clef primaire ? Non, car il est po
 
 L'attribut "titre" peut-il jouer le rôle de clef primaire ? A priori oui, car l'attribut "titre" ne comporte pas 2 fois le même titre de roman. Mais, ce n'est pas forcément une bonne idée, car il est tout à fait possible d'avoir un même titre pour 2 romans différents. Par exemple, en 2013, l’Américaine Jill McCorkle et l’Anglaise Kate Atkison publiaient avec seulement six jours d’écart un livre intitulé "Life After Life" !
 
-Il nous reste donc l'attribut "id". En faite, l'attribut "id" ("id" comme "identifiant") a été placé là pour jouer le rôle de clef primaire. En effet, à chaque fois qu'un roman est ajouté à la relation, sont "id" correspond à l'incrémentation de l'id (id du nouveau=id de l'ancien+1) du roman précédemment ajouté. Il est donc impossible d'avoir deux romans avec le même id. Ajouter un attribut "id" afin qu'il puisse jouer le rôle de clef primaire est une pratique courante (mais non obligatoire) dans les bases de données relationnelles. Dans le cas précis qui nous intéresse, il aurait été possible de ne pas utiliser d'attribut "id", car chaque livre édité possède un numéro qui lui est propre : l'ISBN, cet ISBN aurait donc pu jouer le rôle de clef primaire.
+Il nous reste donc l'attribut "id". En fait, l'attribut "id" ("id" comme "identifiant") a été placé là pour jouer le rôle de clef primaire. En effet, à chaque fois qu'un roman est ajouté à la relation, son "id" correspond à l'incrémentation de l'id (id du nouveau=id de l'ancien+1) du roman précédemment ajouté. Il est donc impossible d'avoir deux romans avec le même id. Ajouter un attribut "id" afin qu'il puisse jouer le rôle de clef primaire est une pratique courante (mais non obligatoire) dans les bases de données relationnelles. Dans le cas précis qui nous intéresse, il aurait été possible de ne pas utiliser d'attribut "id", car chaque livre édité possède un numéro qui lui est propre : l'ISBN, cet ISBN aurait donc pu jouer le rôle de clef primaire.
 
 À noter qu'en toute rigueur, une clef primaire peut être constituée de plusieurs attributs, par exemple le couple "auteur" + "titre" pourrait jouer le rôle de clé primaire (à moins qu'un auteur écrive 2 romans différents, mais portant tous les deux le même titre), mais nous n'étudierons pas cet aspect des choses ici.
 
@@ -138,7 +138,7 @@ Pour établir un lien entre 2 relations RA et RB, on ajoute à RA un attribut x 
 
 Dans l'exemple ci-dessus, l'attribut "id_auteur" de la relation LIVRES permet bien d'établir un lien entre la relation LIVRES et la relation AUTEURS, "id_auteur" correspond bien à la clef primaire de la relation AUTEURS, conclusion : "id_auteur" est une clef étrangère.
 
-Pour préserver l'intégrité d'une base de données, il est important de bien vérifier que toutes les valeurs de la clef étrangère correspondent bien à des valeurs présentes dans la clef primaire (nous aurions un problème d'intégrité de la base de données si une valeur de l'attribut "id_auteur" de la relation LIVRES ne correspondait à aucune valeur de la clef primaire de la relation AUTEURS). Certains SGBD ne vérifient pas cette contrainte (ne renvoie aucune erreur en cas de problème), ce qui peut provoquer des comportements erratiques.
+Pour préserver l'intégrité d'une base de données, il est important de bien vérifier que toutes les valeurs de la clef étrangère correspondent bien à des valeurs présentes dans la clef primaire (nous aurions un problème d'intégrité de la base de données si une valeur de l'attribut "id_auteur" de la relation LIVRES ne correspondait à aucune valeur de la clef primaire de la relation AUTEURS). Certains SGBD ne vérifient pas cette contrainte (ne renvoient aucune erreur en cas de problème), ce qui peut provoquer des comportements erratiques.
 
 ## 6) schéma relationnel 
 
@@ -146,7 +146,7 @@ Dernière définition, on appelle schéma relationnel l'ensemble des relations p
 
 - Les noms des différentes relations
 - pour chaque relation, la liste des attributs avec leur domaine respectif
-- pour chaque relation, la clef primaire et éventuellement la clef étrangère
+- pour chaque relation, la clef primaire et éventuellement les clefs étrangères
 
 Voici un exemple pour les relations LIVRES et AUTEURS :
 
