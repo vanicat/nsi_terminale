@@ -44,7 +44,46 @@ d = taille(F)
 ```
 Donnez le contenu de la file F, la valeur de a, la valeur de b, la valeur de c et la valeur de d.
 
+
 ### exercice 5.4
+
+Soit le programme Python suivant :
+
+```	
+pile = []
+tab = [5,8,6,1,3,7]
+pile.append(5)
+pile.append(10)
+pile.append(8)
+pile.append(15)
+for i in tab:
+    if i > 5:
+        pile.pop()
+```
+
+Donnez l’état de la pile pile après l’exécution de ce programme.
+
+### exercice 5.5
+
+Soit le programme Python suivant :
+
+```
+from collections import deque
+file = deque([])
+tab = [2,78,6,89,3,17]
+file.append(5)
+file.append(10)
+file.append(8)
+file.append(15)
+for i in tab:
+    if i > 50:
+        file.popleft()
+```
+
+Donnez l’état de la file *file* après l’exécution de ce programme
+
+
+### exercice 5.6
 
 Dans cet exercice nous avons à notre disposition 4 fonctions :
 

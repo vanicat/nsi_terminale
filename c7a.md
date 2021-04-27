@@ -8,7 +8,7 @@ Soit l'arbre binaire suivant :
 
 1) Cet arbre est-il un arbre binaire ? Justifiez votre réponse.
 
-2) Nommez la racine de cet arbre.
+2) Donnez la clé (valeur) de la racine de cet arbre.
 
 3) Quels sont les fils du noeud B.
 
@@ -21,3 +21,17 @@ Soit l'arbre binaire suivant :
 7) Donnez la profondeur du noeud B (on prendra la profondeur de la racine égale à 0).
 
 8) Donnez la hauteur de cet arbre (on prendra la profondeur de la racine égale à 0).
+
+### activité 7.3
+
+![](img/c7a_2.png)
+
+1) Expliquez pourquoi cet arbre binaire n'est pas un arbre binaire de recherche.
+
+2) Modifiez cet arbre pour le transformer en arbre binaire de recherche.
+
+### activité 7.4
+
+Soit les valeurs suivantes : 14, 22, 8, 47, 42, 13, 1, 24, 33, 74.
+
+Construisez un arbre binaire de recherche à partir de ces valeurs. 
