@@ -3,11 +3,7 @@
 - Pour consulter des données, ajouter une entrée, modifier une entrée ou supprimer
   une entrée dans une base de données relationnelle, il est nécessaire d’effectuer des “requêtes SQL” (utilisation du langage SQL)
 
-- Pour créer une table, on utilisera “CREATE” (exemple : CREATE TABLE LIVRES (id
-  INT, titre TEXT, auteur TEXT, ann_publi INT, note INT);). Pour chaque attribut de la
-  table, il est nécessaire d’indiquer son type (INT, TEXT, …)
-
-- Pour ajouter des entrées, on utilisera “INSERT” (exemple : INSERT INTO LIVRES
+- Pour ajouter des entrées à une tabe, on utilisera “INSERT” (exemple : INSERT INTO LIVRES
   (id,titre,auteur,ann_publi,note) VALUES (1,'1984','Orwell',1949,10);)
 
 - Pour interroger une table, on utilisera “SELECT” (exemple : SELECT titre FROM
@@ -24,7 +20,7 @@
 ### Ce qu’il faut savoir faire
 
 - Vous devez être capable d’effectuer des requêtes SQL simples (utilisation de
-  “CREATE”, “INSERT”, “SELECT”, “UPDATE” et “DELETE”)
+  “INSERT”, “SELECT”, “UPDATE” et “DELETE”)
 
 - Vous devez être capable d’effectuer une jointure entre 2 tables (utilisation de “INNER JOIN”)
 
