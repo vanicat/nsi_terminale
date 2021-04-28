@@ -1,4 +1,4 @@
-### 1) introduction
+## 1) introduction
 
 Imaginez un réseau social ayant 6 abonnés (A, B, C, D, E et F) où :
 
@@ -17,7 +17,7 @@ Voici ce que cela donne avec le réseau social décrit ci-dessus :
 
 ![](img/c9c_1.png)
 
-### 2) notion de graphes
+## 2) notion de graphes
 
 Ce genre de figure s'appelle un graphe. Les graphes sont des objets mathématiques très utilisés, notamment en informatique. Les cercles sont appelés des sommets et les segments de droites qui relient 2 sommets des arêtes.
 
@@ -76,11 +76,11 @@ Pour terminer avec ces généralités sur les graphes, voici 2 définitions qui 
 - Une chaine est une suite d'arêtes consécutives dans un graphe, un peu comme si on se promenait sur le graphe. On la désigne par les lettres des sommets qu'elle comporte.
 - Un cycle est une chaine qui commence et se termine au même sommet.
 
-### 3) implémentation des graphes
+## 3) implémentation des graphes
 
 Il existe deux méthodes permettant d'implémenter un graphe : les matrices d'adjacences et les listes d'adjacences.
 
-#### a) implémentation d'un graphe à l'aide d'une matrice d'adjacence
+### a) implémentation d'un graphe à l'aide d'une matrice d'adjacence
 
 Une matrice est un tableau à double entrée :
 
@@ -130,7 +130,7 @@ m = [[0, 1, 1, 1, 0, 0, 0],
      [0, 1, 0, 1, 0, 0, 0]]
 
 ```
-#### b) implémentation d'un graphe à l'aide de listes d'adjacence
+### b) implémentation d'un graphe à l'aide de listes d'adjacence
 
 Pour commencer, on définit une liste des sommets du graphe. À chaque élément de cette liste, on associe une autre liste qui contient les sommets lié à cet élément :
 
@@ -160,7 +160,7 @@ Il est possible de travailler avec des listes d'adjacences en Python en utilisan
 #liste d'ajacence
 l = {'A':('B','C','D'), 'B':('A', 'E', 'F', 'G'), 'C':('A'), 'D':('A', 'G'), 'E':('B', 'F'), 'F':('B', 'E'), 'G':('B', 'D')}
 ```
-#### c) matrice d'adjacence ou liste d'adjacence ?
+### c) matrice d'adjacence ou liste d'adjacence ?
 
 Comment choisir l'implémentation à utiliser (matrice d'adjacence ou liste d'adjacence) ?
 

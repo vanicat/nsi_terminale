@@ -84,6 +84,7 @@ Donnez l’état de la file *file* après l’exécution de ce programme
 
 
 ### exercice 5.6
+Cet exercice est tiré du sujet 0 du bac NSI.
 
 Dans cet exercice nous avons à notre disposition 4 fonctions :
 
