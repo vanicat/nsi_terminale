@@ -81,7 +81,7 @@ INSERT INTO LIVRES
 	(16,'De la Terre à la Lune','Verne',1865,10);
 ```
 
-Un message devrez vous préciser que votre requête a été exécutée avec succès :
+Un message devrait vous préciser que votre requête a été exécutée avec succès :
 
 ![](img/nsi_term_bd_sql_6.png)
 
