@@ -11,11 +11,11 @@ def fct(n):
 a = fct(2)
 ```
 
-Que vaut la variable a après l’exécution de ce programme (justifiez votre réponse)
+Que vaut la variable a après l’exécution de ce programme (justifiez votre réponse) ?
 
 ### exercice 4.2
 
-La fonction puissance prend un paramètre n et renvoie 2n. On définit la fonction puissance comme suit :
+La fonction puissance prend un paramètre n et renvoie 2<sup>n</sup>. On définit la fonction puissance comme suit :
 
 - si n = 0 alors puissance(0) = 1
 
