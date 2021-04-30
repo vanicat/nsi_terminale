@@ -105,12 +105,12 @@ Q = pileVide ()
 while not estVide ( P ):
 	empiler (Q , depiler ( P ))
 ```
-2) a) On appelle hauteur d’une pile le nombre d’éléments qu’elle contient. La fonction hauteur_pile prend en paramètre une pile P et renvoie sa hauteur. Après appel de cette fonction, la pile P doit avoir retrouvé son état d’origine.
+2) a) On appelle hauteur d’une pile le nombre d’éléments qu’elle contient. La fonction *hauteur_pile* prend en paramètre une pile P et renvoie sa hauteur. Après appel de cette fonction, la pile P doit avoir retrouvé son état d’origine.
 
 Exemple : si P est la pile de la question 1 : hauteur_pile(P) = 4.
 
 Recopier et compléter sur votre feuille le programme Python suivant implémentant la fonction
-hauteur_pile en remplaçant les ??? par les bonnes instructions.
+*hauteur_pile* en remplaçant les ??? par les bonnes instructions.
 
 ```
 def hauteur_pile ( P ):
@@ -125,16 +125,16 @@ while not ( estVide ( Q )):
 	empiler (P , x )
 return ???
 ```
-2) b) Créer une fonction max_pile ayant pour paramètres une pile P et un entier i. Cette fonction
+2) b) Créer une fonction *max_pile* ayant pour paramètres une pile P et un entier i. Cette fonction
 renvoie la position j de l’élément maximum parmi les i derniers éléments empilés de la pile P.
 Après appel de cette fonction, la pile P devra avoir retrouvé son état d’origine. La position du
 sommet de la pile est 1.
 
 Exemple : si P est la pile de la question 1 : max_pile(P, 2) = 1
 
-3) Créer une fonction retourner ayant pour paramètres une pile P et un entier j. Cette fonction inverse l’ordre des j derniers éléments empilés et ne renvoie rien. On pourra utiliser deux piles auxiliaires.
+3) Créer une fonction *retourner* ayant pour paramètres une pile P et un entier j. Cette fonction inverse l’ordre des j derniers éléments empilés et ne renvoie rien. On pourra utiliser deux piles auxiliaires.
 
-Exemple : si P est la pile de la question 1, après l’appel de retourner(P, 3), l’état de la pile P sera :
+Exemple : si P est la pile de la question 1, après l’appel de *retourner(P, 3)*, l’état de la pile P sera :
 
 ![](img/c5e_2.png)
 
@@ -156,8 +156,14 @@ Exemple :
 
 ![](img/c5e_3.png)
 
-Créer la fonction tri_crepes ayant pour paramètre une pile P. Cette fonction trie la pile P selon la méthode du tri crêpes et ne renvoie rien. On utilisera les fonctions créées dans les questions précédentes.
+Créer la fonction *tri_crepes* ayant pour paramètre une pile P. Cette fonction trie la pile P selon la méthode du tri crêpes et ne renvoie rien. On utilisera les fonctions créées dans les questions précédentes.
 
 
-Exemple : Si la pile P est ![](img/c5e_4.png), après l’appel de tri_crepes(P), la pile P devient ![](img/c5e_4.png)
+Exemple : Si la pile P est :
+
+![](img/c5e_4.png)
+
+après l’appel de *tri_crepes(P)*, la pile P devient :
+
+![](img/c5e_4.png)
  
