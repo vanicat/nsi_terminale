@@ -15,6 +15,4 @@ Dans une base de données, l'information est stockée dans des fichiers, mais à
 
 Comme nous venons de la voir, les SGBD jouent un rôle fondamental. L'utilisation des SGBD explique en partie la supériorité de l'utilisation des bases de données sur des solutions plus simples à mettre en oeuvre; mais aussi beaucoup plus limitées comme les fichiers au format CSV.
 
-![](img/cc.png)
 
-Auteur : David Roche

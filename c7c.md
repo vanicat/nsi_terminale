@@ -108,7 +108,3 @@ exemple d'arbre binaire de recherche :
 Vous pouvez vérifier que le fils gauche d'un noeud a une valeur plus petite que son père (par exemple 3 < 6) et que le fils droit d'un noeud a une valeur plus grande que son père (par exemple 7 > 6)
 
 Attention : pour un noeud donné A, tous les noeuds de l'arbre gauche de A auront des valeurs plus petites que la valeur du noeud A et tous les noeuds de la l'arbre droit de A auront des valeurs plus grandes que la valeur du noeud A. 
-
-![](img/cc.png)
-
-Auteur : David Roche

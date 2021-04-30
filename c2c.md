@@ -157,6 +157,3 @@ LIVRES(<u>id</u>  : INT, titre : TEXT, #id_auteur : INT, ann_publi : INT, note :
 Les attributs soulignés sont des clés primaires, le # signifie que l'on a une clé étrangère.
 
 
-![](img/cc.png)
-
-Auteur : David Roche

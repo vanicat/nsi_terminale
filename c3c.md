@@ -223,7 +223,7 @@ On obtiendra alors une jointure uniquement avec l'attribut titre de la table LIV
 |La Fin de l’éternité|Asimov|Isaac|
 |De la Terre à la Lune|Verne|Jules|
 
-### f) utilisation du WHERE dans les jointures
+### f) utilisation du WHERE dans les jointures
 
 Suite à une jointure il est possible de sélectionner certaines lignes grâce à la clause WHERE :
 ```
@@ -276,6 +276,3 @@ DELETE FROM LIVRES
 ```
 supprimerait toutes les entrées de la table LIVRES
 
-![](img/cc.png)
-
-Auteur : David Roche

@@ -113,6 +113,3 @@ Il est relativement facile d'insérer un élément dans une liste chaînée :
 
 Il est aussi possible d'implémenter les types abstraits en utilisant des structures plus complexes que les tableaux et les listes chaînées (nous  verrons des exemples en Python dans les activités).
 
-![](img/cc.png)
-
-Auteur : David Roche
