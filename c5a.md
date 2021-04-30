@@ -13,7 +13,7 @@ Donnez le contenu des listes L et L1 et la valeur de a.
 
 ### activité 5.2
 
-Soit une pile P composée des éléments suivants : 15, 11, 32, 45 et 67 (le sommet de la pile est 67). Quel est l'effet de l'instruction pop(P)
+Soit une pile P composée des éléments suivants : 15, 11, 32, 45 et 67 (le sommet de la pile est 67). Quel est l'effet de l'instruction pop(P) ?
 
 ### activité 5.3
 
@@ -30,7 +30,7 @@ b = taille(P)
 Donnez le contenu de la pile P, la valeur de a et la valeur de b.
 
 ### activité 5.4
-Soit une file F composée des éléments suivants : 1, 12, 24, 17, 21 et 72 (le premier élément rentré dans la file est 72 ; le dernier élément rentré dans la file est 1). Quel est l'effet de l'instruction enqueue(F,25)
+Soit une file F composée des éléments suivants : 1, 12, 24, 17, 21 et 72 (le premier élément rentré dans la file est 72 ; le dernier élément rentré dans la file est 1). Quel est l'effet de l'instruction enqueue(F,25) ?
 
 ### activité 5.5
 
@@ -44,7 +44,7 @@ a = dequeue(F)
 enqueue(F,23)
 b = taille(F)
 ```
-Donnez le contenu de la file !f, la valeur de a et la valeur de b.
+Donnez le contenu de la file F, la valeur de a et la valeur de b.
 
 ### activité 5.6
 
@@ -62,13 +62,13 @@ def car(L):
 def cdr(L):
     return(L[1])
 ```
-Quel est le but de ce programme. Vérifiez à l'aide de ce programme que les réponses que vous avez apportées à l'activité 5.1 étaient correctes.
+Quel est le but de ce programme ? Vérifiez à l'aide de ce programme que les réponses que vous avez apportées à l'activité 5.1 étaient correctes.
 
 ### activité 5.7
-Python propose une implémentation des piles. Après avoir étudié la documentation consacrée à l'implémentation des piles en Python (voir [https://docs.python.org/fr/3/tutorial/datastructures.html](https://docs.python.org/fr/3/tutorial/datastructures.html) partie 5.1.1), vous écrirez un programme permettant de vérifier que les réponses que vous avez apportées à l'activité 5.3 étaient correctes.
+Python propose une implémentation des piles. Après avoir étudié la documentation consacrée à l'implémentation des piles en Python (voir [https://docs.python.org/fr/3/tutorial/datastructures.html](https://docs.python.org/fr/3/tutorial/datastructures.html#using-lists-as-stacks) partie 5.1.1), vous écrirez un programme permettant de vérifier que les réponses que vous avez apportées à l'activité 5.3 étaient correctes.
 
 ### activité 5.8
-Python propose une implémentation des files. Après avoir étudié la documentation consacrée à l'implémentation des files en Python (voir [https://docs.python.org/fr/3/tutorial/datastructures.html](https://docs.python.org/fr/3/tutorial/datastructures.html) partie 5.1.2), vous écrirez un programme permettant de vérifier que les réponses que vous avez apportées à l'activité 5.5 étaient correctes.
+Python propose une implémentation des files. Après avoir étudié la documentation consacrée à l'implémentation des files en Python (voir [https://docs.python.org/fr/3/tutorial/datastructures.html](https://docs.python.org/fr/3/tutorial/datastructures.html#using-lists-as-queues) partie 5.1.2), vous écrirez un programme permettant de vérifier que les réponses que vous avez apportées à l'activité 5.5 étaient correctes.
 
 ### activité 5.9
 Écrivez une fonction Python permettant de déterminer le nombre d'éléments présents dans une liste.

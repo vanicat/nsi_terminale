@@ -1,7 +1,7 @@
 ### Ce qu’il faut savoir
 
 #### Les listes
-Une liste est une structure de données permettant de regrouper des données. Une liste L est composée de 2 parties : sa tête (souvent noté car), qui correspond au dernier élément ajouté à la liste, et sa queue (souvent noté cdr) qui correspond au reste de la liste.
+Une liste est une structure de données permettant de regrouper des données. Une liste L est composée de 2 parties : sa tête (souvent notée car), qui correspond au dernier élément ajouté à la liste, et sa queue (souvent notée cdr) qui correspond au reste de la liste.
 Voici les opérations qui peuvent être effectuées sur une liste :
 
 - obtenir une liste vide (vide)
