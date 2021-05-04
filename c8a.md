@@ -3,14 +3,14 @@ Soit l'arbre suivant :
 
 ![](img/nsi_term_algo_arbre_1.png)
 
-Appliquez l'algorithme qui permet de calculer le hauteur d'une arbre binaire à l'arbre ci-dessus. Quel résultat obtenez-vous ?
+Appliquez l'algorithme qui permet de calculer le hauteur d'un arbre binaire à l'arbre ci-dessus. Quel résultat obtenez-vous ?
 
 ### activité 8.2
 Soit l'arbre suivant :
 
 ![](img/nsi_term_algo_arbre_1.png)
 
-Appliquez l'algorithme qui permet de calculer la taille d'une arbre binaire à l'arbre ci-dessus. Quel résultat obtenez-vous ?
+Appliquez l'algorithme qui permet de calculer la taille d'un arbre binaire à l'arbre ci-dessus. Quel résultat obtenez-vous ?
 
 ### activité 8.3
 Soit l'arbre suivant :
@@ -53,11 +53,6 @@ Appliquez l'algorithme de recherche d'une clé dans un arbre binaire de recherch
 ![](img/nsi_term_algo_arbre_4.png)
 
 ### activité 8.9
-Appliquez l'algorithme de recherche d'une clé dans un arbre binaire de recherche sur l'arbre ci-dessous. On prendra k = 16. Quel résultat obtenez-vous ?
-
-![](img/nsi_term_algo_arbre_4.png)
-
-### activité 8.10
 Appliquez l'algorithme de recherche d'une clé dans un arbre binaire de recherche sur l'arbre ci-dessous. On prendra k = 16. Quel résultat obtenez-vous ?
 
 ![](img/nsi_term_algo_arbre_4.png)
