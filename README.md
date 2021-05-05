@@ -2,7 +2,7 @@
 
 Vous trouverez dans ce dépôt les fichiers sources au format markdown d'un futur manuel "élève" pour les terminales NSI.
 
-Vous trouverez 3 types de ressources :
+Vous trouverez 4 types de ressources :
 
 - les cours
 - les activités (étude de doc, exercices d'application, TP...)
