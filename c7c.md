@@ -20,8 +20,8 @@ En quart de final, on va avoir :
 
 Pour les demi-finales on aura :
 
-- demi-final 1 => vainqueur quart de finale 1 contre vainqueur quart de finale 3
-- demi-final 2 => vainqueur quart de finale 2 contre vainqueur quart de finale 4
+- demi-finale 1 => vainqueur quart de finale 1 contre vainqueur quart de finale 3
+- demi-finale 2 => vainqueur quart de finale 2 contre vainqueur quart de finale 4
 
 L'organisateur du tournoi affiche les informations ci-dessus le jour du tournoi. Malheureusement, la plupart des spectateurs se perdent quand ils cherchent à déterminer les potentielles demi-finales (et ne parlons pas de la finale !)
 
@@ -29,7 +29,7 @@ Pourtant, un simple graphique aurait grandement simplifié les choses :
 
 ![](img/nsi_term_structDo_arbre_1.png)
 
-Les spectateurs peuvent alors recopier sur un bout de papier ce schéma et ensuite se livrer au jeu des pronostiques.
+Les spectateurs peuvent alors recopier sur un bout de papier ce schéma et ensuite se livrer au jeu des pronostics.
 
 Nous avons ci-dessous ce que l'on appelle une structure en arbre. On peut aussi retrouver cette même structure dans un arbre "père/mère" :
 
@@ -45,7 +45,7 @@ Les arbres sont des types abstraits très utilisés en informatique. On les util
 ## 2) les arbres binaires
 ### a) introduction
 
-Les arbres binaires sont des cas particuliers d'arbre : l'arbre du tournoi de rugby et l'arbre "père, mère..." sont des arbres binaires, en revanche, l'arbre représentant la structure du système de fichier n'est pas un arbre binaire (même chose pour un véritable arbre généalogique). Dans un arbre binaire, on a au maximum 2 branches qui partent d'un élément (pour le système de fichiers, on a 7 branches qui partent de la racine : ce n'est donc pas un arbre binaire). Dans la suite nous allons uniquement travailler sur les arbres binaires.
+Les arbres binaires sont des cas particuliers d'arbres : l'arbre du tournoi de rugby et l'arbre "père, mère..." sont des arbres binaires, en revanche, l'arbre représentant la structure du système de fichier n'est pas un arbre binaire (même chose pour un véritable arbre généalogique). Dans un arbre binaire, on a au maximum 2 branches qui partent d'un élément (pour le système de fichiers, on a 7 branches qui partent de la racine : ce n'est donc pas un arbre binaire). Dans la suite nous allons uniquement travailler sur les arbres binaires.
 
 Soit l'arbre binaire suivant :
 
@@ -107,4 +107,4 @@ exemple d'arbre binaire de recherche :
 
 Vous pouvez vérifier que le fils gauche d'un noeud a une valeur plus petite que son père (par exemple 3 < 6) et que le fils droit d'un noeud a une valeur plus grande que son père (par exemple 7 > 6)
 
-Attention : pour un noeud donné A, tous les noeuds de l'arbre gauche de A auront des valeurs plus petites que la valeur du noeud A et tous les noeuds de la l'arbre droit de A auront des valeurs plus grandes que la valeur du noeud A. 
+Attention : pour un noeud donné A, tous les noeuds de l'arbre gauche de A auront des valeurs plus petites que la valeur du noeud A et tous les noeuds de l'arbre droit de A auront des valeurs plus grandes que la valeur du noeud A. 
