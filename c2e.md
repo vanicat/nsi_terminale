@@ -17,6 +17,6 @@ Relation PRODUITS
 1. Expliquez en quelques lignes ce qu’est un SGBD ( système de gestion de base de données).
 2. Expliquez en quelques lignes l’avantage d’une base de données par rapport au stockage des données dans un fichier de type CSV
 3. Donnez le nom d’un des attributs de la relation PRODUITS 
-4. Donnez un exemple de t-upplet de la relation PRODUITS
+4. Donnez un exemple de t-uplet de la relation PRODUITS
 5. Parmi tous les attributs de la relation PRODUITS, déterminez le(s) attribut(s) qui peut (peuvent) jouer le rôle de clé primaire ? (justifiez votre réponse)
 
