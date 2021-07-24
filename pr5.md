@@ -259,6 +259,9 @@ while run :
     if event.type == pygame.QUIT:
       run = False
   surf.fill((0,0,0))
+  surf.blit(img,(200,200))
+  pygame.display.flip()
+pygame.quit()
 ```
 
 L'affichage de l'image se fait en 2 étapes :
@@ -342,6 +345,8 @@ while run :
       else :
         print ("vous avez appuyé sur une touche")
   surf.fill((0,0,0))
+  pygame.display.flip()
+pygame.quit()
  ```
  
 Vous trouverez la liste complète des touches dans la documentation officielle de pygame.

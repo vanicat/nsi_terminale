@@ -98,3 +98,54 @@ WHERE nomClient = "Hopper" AND prenomClient = "Grace";
 ```
 
 5) Écrire la requête qui renvoie les destinations et les prix des réservations effectuées par Grace Hopper.
+
+### exercice 3.3
+
+Exercice tiré du bac 2021
+
+Une restauratrice a mis en place un site Web pour gérer ses réservations en ligne. Chaque client peut s’inscrire en saisissant ses identifiants. Une fois connecté, il peut effectuer une réservation en renseignant le jour et l’heure. Il peut également commander son menu en ligne et écrire un avis sur le restaurant.
+Le gestionnaire du site Web a créé une base de données associée au site nommée restaurant, contenant les quatre relations du schéma relationnel ci-dessous :
+
+![](img/c3e_1.png)
+
+Dans le schéma relationnel précédent, un attribut souligné indique qu’il s’agit d’une clé primaire. Un attibut précédé du symbole # indique qu’il s’agit d’une clé étrangère et la flèche associée indique l’attribut référencé. Ainsi, par exemple, l'attribut idPlat de la relation Commande est une clé étrangère qui fait référence à l'attribut idPlat de la relation Plat.
+Dans la suite, les mots clés suivants du langage SQL pourront être utilisés dans les requêtes : 
+SELECT, FROM, WHERE, JOIN, ON, DELETE, UPDATE, SET, INSERT INTO, AND, OR.
+
+1) Parmi les trois requêtes suivantes, écrites dans le langage SQL, laquelle renvoie les valeurs de tous les attributs des plats de la catégorie 'entrée' :
+
+```
+R1
+SELECT nom, prix
+FROM Plat
+WHERE categorie  = 'entrée';
+
+R2
+SELECT *
+FROM Plat
+WHERE categorie  = 'entrée';
+
+R3
+UPDATE Plat
+SET categorie  = 'entrée'
+WHERE 1;
+```
+
+2) Écrire, dans le langage SQL, des requêtes d’interrogation sur la base de données restaurant permettant de réaliser les tâches suivantes :
+
+a) Afficher les noms et les avis des clients ayant effectué une réservation pour la date du '2021-06-05' à l’heure '19:30:00'.
+
+b) Afficher le nom des plats des catégories 'plat principal' et 'dessert', correspondant aux commandes de la date '2021-04-12'.
+
+3) Que réalise la requête SQL suivante ?
+
+```
+INSERT INTO Plat
+VALUES(58,'Pêche Melba', 'dessert', 'Pêches et glace vanille', 6.5);
+```
+
+4) Écrire des requêtes SQL permettant de réaliser les tâches suivantes :
+
+a) Supprimer les commandes ayant comme idReservation la valeur 2047.
+
+b) Augmenter de 5% tous les prix de la relation plat strictement inférieurs à 20.00.
