@@ -150,7 +150,7 @@ Comme vous pouvez le constater, la fonction fact est structurée de la même man
 
 On peut essayer de comprendre le fonctionnement du programme ci-dessus à l'aide du schéma suivant :
 
-![](/home/roche/Dropbox/term_manuel/md/img/nsi_term_rec_4.png)
+![](https://pixees.fr/informatiquelycee/term/img/nsi_term_rec_4.png)
 
 On a fact(4) = 4 * fact(3) avec fact(3) = 3 * fact(2) avec fact(2) =  2 * fact(1) avec fact(1) = 1 * fact(0) avec fact(0) = 1 (par définition) donc fact(1) = 1 donc fact(2) = 2 donc fact(3) = 6 donc fact(4) = 24 
 
