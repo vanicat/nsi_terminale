@@ -5,7 +5,6 @@ Soit la relation suivante :
 |--- |--- |--- |--- |--- |
 |1|1984|Orwell|1949|10|
 |2|Dune|Herbert|1965|8|
-|2|Dune|Herbert|1965|8|
 |3|Fondation|Asimov|1951|9|
 
 Faites la liste des éléments appartenant à l'attribut "auteur".
@@ -16,7 +15,6 @@ Soit la relation suivante :
 |id|titre|auteur|ann_publi|note|
 |--- |--- |--- |--- |--- |
 |1|1984|Orwell|1949|10|
-|2|Dune|Herbert|1965|8|
 |2|Dune|Herbert|1965|8|
 |3|Fondation|Asimov|1951|9|
 
