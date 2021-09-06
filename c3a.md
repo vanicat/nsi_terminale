@@ -37,7 +37,7 @@ Vous venez de créer votre première table.
 
 Revenons sur cette première requête :
 
-Le *CREATE TABLE LIVRES* ne devrait pas vous poser de problème : nous créons une nouvelle table nommée "LIVRES".
+Le *CREATE TABLE LIVRES* ne devrait pas vous poser de problème : nous créons une nouvelle table nommée "LIVRES".
 
 La suite est à peine plus complexe :
 
@@ -234,6 +234,7 @@ CREATE TABLE LIVRES
 Ajoutez des données à la table LIVRES à l'aide de la requête SQL suivante :
 
 ```
+INSERT INTO LIVRES
 (id,titre,auteur,ann_publi,note)
 VALUES
 (1,'1984','Orwell',1949,10),
