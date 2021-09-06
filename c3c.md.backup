@@ -114,7 +114,7 @@ SELECT nom
 FROM AUTEURS
 WHERE langue_ecriture = 'français' ORDER BY ann_naissance DESC
 ```
-On obtiendra ici : "Boulle", "Barjavel", "Verne"
+On obtiendra ici : "Boulle", "Verne", "Barjavel
 
 À noter que si la clause ORDER BY porte sur une chaine de caractères, on obtient alors l'ordre alphabétique  :
 ```
