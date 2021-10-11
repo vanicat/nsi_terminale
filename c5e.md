@@ -165,5 +165,5 @@ Exemple : Si la pile P est :
 
 après l’appel de *tri_crepes(P)*, la pile P devient :
 
-![](img/c5e_4.png)
+![](img/c5e_5.png)
  
