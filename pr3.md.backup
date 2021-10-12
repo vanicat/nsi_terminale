@@ -242,7 +242,7 @@ Nous allons maintenant travailler sur les arbres binaires de recherche.
 ### projet 3.11
 Programmez, à l'aide de la classe *ArbreBinaire*, l'arbre binaire de recherche ci-dessous (arbre 3) :
 
-![](img/pr3_3.png)
+![](img/pr3_1.png)
 
 Vérifiez votre réponse à l'aide de la fonction *affichage*
 
