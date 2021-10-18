@@ -3,7 +3,7 @@
 - Pour consulter des données, ajouter une entrée, modifier une entrée ou supprimer
   une entrée dans une base de données relationnelle, il est nécessaire d’effectuer des “requêtes SQL” (utilisation du langage SQL)
 
-- Pour ajouter des entrées à une tabe, on utilisera “INSERT” (exemple : INSERT INTO LIVRES
+- Pour ajouter des entrées à une table, on utilisera “INSERT” (exemple : INSERT INTO LIVRES
   (id,titre,auteur,ann_publi,note) VALUES (1,'1984','Orwell',1949,10);)
 
 - Pour interroger une table, on utilisera “SELECT” (exemple : SELECT titre FROM
