@@ -82,7 +82,7 @@ noeuds de son fils gauche, et inférieure à celles des noeuds de son fils droit
 fonction renvoie True si element est dans l’arbre et False sinon. L’arbre sera représenté par un tableau comme dans la question précédente.
 
 ### exercice 8.3
-Cet exercice est tiré du sujet 2012 du bac NSI.
+Cet exercice est tiré du sujet 2021 du bac NSI.
 
 Dans cet exercice, les arbres binaires de recherche ne peuvent pas comporter plusieurs fois la même clé. De plus, un arbre binaire de recherche limité à un nœud a une hauteur de 1.
 On considère l’arbre binaire de recherche représenté ci-dessous (figure 1), où val représente un entier :
